@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Container from "@/components/Container";
 import { Sling as Hamburger } from 'hamburger-react'
-
+import Link from "next/link";
 export default function Home() {
   return (
     <Container>
       <div id="header" className="relative col-start-1 col-end-7 row-span-4 bg-ghost card">
         <h1 className="font-bold text-[50px] leading-[60px]">Making Your Business Online Through Web Development</h1>
-        <a href="/" className="px-8 py-3 bg-primary text-white rounded-lg absolute right-4 bottom-4 text-[18px] font-bold">Hire me 👋</a>
+        <Link href="/" className="px-8 py-3 bg-primary text-white rounded-lg absolute right-4 bottom-4 text-[18px] font-bold">Hire me 👋</Link>
       </div>
       <div id="navbar" className="col-start-7 col-span-full row-span-1 bg-ghost rounded-lg flex justify-between py-0 font-bold text-[19px] items-center px-8">
         <h1>FIZZ</h1>
